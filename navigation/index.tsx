@@ -103,13 +103,13 @@ function RootNavigator() {
               style={{
                 flexDirection: 'row',
                 backgroundColor: 'transparent',
-                width: 60,
+                width: 110,
                 justifyContent: 'space-between',
                 marginRight: 10,
                 alignItems: 'center',
               }}
             >
-              <FontAwesome5 name='video' size={22} color='white' />
+              <FontAwesome5 name='video' size={21} color='white' />
               <MaterialIcons name='call' size={22} color='white' />
               <MaterialCommunityIcons
                 name='dots-vertical'

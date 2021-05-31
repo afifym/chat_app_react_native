@@ -1,0 +1,41 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-vchat-dev-130826-authRole",
+      "UnauthRoleArn": "arn:aws:iam::775140423105:role/amplify-vchat-dev-130826-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::775140423105:role/amplify-vchat-dev-130826-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-vchat-dev-130826-deployment",
+      "UnauthRoleName": "amplify-vchat-dev-130826-unauthRole",
+      "StackName": "amplify-vchat-dev-130826",
+      "StackId": "arn:aws:cloudformation:us-east-1:775140423105:stack/amplify-vchat-dev-130826/8a2437b0-c200-11eb-a162-128e31f6ab25",
+      "AmplifyAppId": "d3mq6woubi69yi"
+    }
+  },
+  "develop": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-vchat-develop-132247-authRole",
+      "UnauthRoleArn": "arn:aws:iam::775140423105:role/amplify-vchat-develop-132247-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::775140423105:role/amplify-vchat-develop-132247-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-vchat-develop-132247-deployment",
+      "UnauthRoleName": "amplify-vchat-develop-132247-unauthRole",
+      "StackName": "amplify-vchat-develop-132247",
+      "StackId": "arn:aws:cloudformation:us-east-1:775140423105:stack/amplify-vchat-develop-132247/91bdcbb0-c202-11eb-a060-0acf59e535ed",
+      "AmplifyAppId": "d3mq6woubi69yi"
+    }
+  },
+  "devv": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-vchat-devv-132425-authRole",
+      "UnauthRoleArn": "arn:aws:iam::775140423105:role/amplify-vchat-devv-132425-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::775140423105:role/amplify-vchat-devv-132425-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-vchat-devv-132425-deployment",
+      "UnauthRoleName": "amplify-vchat-devv-132425-unauthRole",
+      "StackName": "amplify-vchat-devv-132425",
+      "StackId": "arn:aws:cloudformation:us-east-1:775140423105:stack/amplify-vchat-devv-132425/c4b966a0-c202-11eb-901b-123f2d95f4cf",
+      "AmplifyAppId": "d3mq6woubi69yi"
+    }
+  }
+}
