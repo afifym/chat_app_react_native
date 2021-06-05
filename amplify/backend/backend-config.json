@@ -1,1 +1,27 @@
-{}
+{
+  "auth": {
+    "vchat0056777a": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "api": {
+    "vchatapi": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "AMAZON_COGNITO_USER_POOLS",
+            "userPoolConfig": {
+              "userPoolId": "authvchat0056777a"
+            }
+          },
+          "additionalAuthenticationProviders": []
+        }
+      }
+    }
+  }
+}

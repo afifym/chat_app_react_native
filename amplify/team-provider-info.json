@@ -36,6 +36,11 @@
       "StackName": "amplify-vchat-devv-132425",
       "StackId": "arn:aws:cloudformation:us-east-1:775140423105:stack/amplify-vchat-devv-132425/c4b966a0-c202-11eb-901b-123f2d95f4cf",
       "AmplifyAppId": "d3mq6woubi69yi"
+    },
+    "categories": {
+      "auth": {
+        "vchat0056777a": {}
+      }
     }
   }
 }

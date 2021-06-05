@@ -1,0 +1,53 @@
+{
+    "identityPoolName": "vchat0056777a_identitypool_0056777a",
+    "allowUnauthenticatedIdentities": false,
+    "resourceNameTruncated": "vchat0056777a",
+    "userPoolName": "vchat0056777a_userpool_0056777a",
+    "autoVerifiedAttributes": [
+        "email"
+    ],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+        "SMS Text Message"
+    ],
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Your verification code",
+    "emailVerificationMessage": "Your verification code is {####}",
+    "defaultPasswordPolicy": false,
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": [],
+    "requiredAttributes": [
+        "email"
+    ],
+    "userpoolClientGenerateSecret": false,
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientWriteAttributes": [
+        "email"
+    ],
+    "userpoolClientReadAttributes": [
+        "email"
+    ],
+    "userpoolClientLambdaRole": "vchat00056777a_userpoolclient_lambda_role",
+    "userpoolClientSetAttributes": false,
+    "sharedId": "0056777a",
+    "resourceName": "vchat0056777a",
+    "authSelections": "identityPoolAndUserPool",
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    },
+    "unauthRoleArn": {
+        "Fn::GetAtt": [
+            "UnauthRole",
+            "Arn"
+        ]
+    },
+    "useDefault": "default",
+    "userPoolGroupList": [],
+    "serviceName": "Cognito",
+    "usernameCaseSensitive": false,
+    "dependsOn": []
+}
